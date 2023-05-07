@@ -1,0 +1,27 @@
+.menuheader{
+    padding: 0.3em 0;
+    box-shadow: 9px 20px 20px 0px rgba(0,0,0,.1) !important;
+    z-index: 9999;
+    position: relative;
+}
+
+.menuheader > .container  > .item{
+    font-weight:bold !important;
+    text-transform:uppercase !important;
+    
+}
+
+.homelanding{
+    position: relative;
+}
+
+.bglanding{
+    border: 0px solid;
+    height: 100%;
+    width:100%;
+    background-size: cover;
+    /* background-image:'url(${backgroundImg})'; */
+    position:absolute;
+    top:0;
+    filter: blur(0.1rem);
+}

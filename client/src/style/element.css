@@ -1,0 +1,10 @@
+.floating-socials {
+    position: fixed;
+    top:30%;
+    right: 1em;
+    z-index: 9999;
+}
+.scbtn{
+    margin: 0 !important;
+    padding: 0 !important;
+}
